@@ -1,0 +1,19 @@
+{
+  "name": "scuttlebot-ws",
+  "private": true,
+  "version": "1.0.0",
+  "description": "websocket (socket.io) wrapper for scuttlebot",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["p2p", "ad hoc", "mesh", "node"],
+  "author": "vuldin <vuldin@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "pull-stream": "^3.6.1",
+    "scuttlebot": "^10.5.0",
+    "socket.io": "^2.0.4"
+  }
+}
